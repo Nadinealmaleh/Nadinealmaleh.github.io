@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    min-width: 2000px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: dimgray;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 35px;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    max-width: 150px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: darkgray;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#content {
+margin-left: 150px;
+margin-top: 35px;
+position: absolute;
+
+}
+
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+#about-me {
+
+    background-color: white;
+    
+}
+
+.about-me {
+        position: static;
+        height:auto;
+        font-size: 20px;
+}
+
+#content {
+    margin-left: 150px;
+    margin-top: -5px;
+    
+}
+
+#portfolio {
+    background-color: darkgray;
+}
+
+.progress-bar {
+    width: 80%;
+    height: 30px;
+    background-color: white;
+}
+
+.photoshop {
+    width: 95%;
+    background-color: aqua;
+    margin: 0;
+    
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.ilustrator {
+        width: 85%;
+    background-color: aqua;
+    margin: 0;
+    
+}
+
+.social {
+        width: 80%;
+    background-color: aqua;
+    margin: 0;
+    
+}
+
+.resume {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.resume {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+}
+
+.resume:hover {
+    background-color: black;
+    color: white;
+}
+
+p {
+    padding: 40px;
+    
+}
+
+.contact {
+    background-color: white;
+    
+}
+
+.icons {
+    height: 60px;
+}
+
+#facebook {
+    border-radius: 15px;
+    
+}
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.footer {
+    margin: 0;
+    height: auto;
+    
+}
+
+#footer {
+    background-color: dimgray;
+    
+}
+
+#info {
+    width: 40%;
+    float: left;
+    
+}
+
+.tag {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.tag1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.tag1:hover {
+    background-color: black;
+    color: white;
+}
+
+h3 {
+    color: black;  
+    font-size: 17px;
+    
+}
+
+#tags {
+    width: 60%;
+    float: right;
+    
+}
